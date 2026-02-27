@@ -1,8 +1,8 @@
 CC = gcc
-CFLAGS = -Wall -Wextra -O2 -I. -pthread
+CFLAGS = -Wall -Wextra -O2 -Iinclude -pthread
 LDFLAGS = -pthread
 
-SRC_DIR = .
+SRC_DIR = src
 OBJ_DIR = obj
 BIN_DIR = bin
 
